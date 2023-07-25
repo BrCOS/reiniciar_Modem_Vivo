@@ -14,7 +14,7 @@ login = driver.find_element(By.ID, 'Loginuser')
 login.send_keys('admin')
 
 senha = driver.find_element(By.ID, 'LoginPassword')
-senha.send_keys('SUA SENHA AQUI!')
+senha.send_keys('SUA SENHA AQUI')
 
 entrar = driver.find_element(By.ID, 'acceptLogin')
 entrar.click()
